@@ -1,4 +1,4 @@
-import { effect, style, insert, spread, createComponent, delegateEvents, classList, mergeProps, dynamicProperty, setAttribute, setAttributeNS, addEventListener, Aliases, PropAliases, Properties, ChildProperties, DelegatedEvents, SVGElements, SVGNamespace } from 'solid-js/web';
+import { effect, style, insert, spread, createComponent, delegateEvents, classList, mergeProps, dynamicProperty, setAttribute, setAttributeNS, addEventListener, Aliases, PropAliases, Properties, ChildProperties, DelegatedEvents, SVGElements, SVGNamespace } from './web.js';
 
 var attrRE, lookup, parseTag, pushCommentNode, pushTextNode, tagRE;
 tagRE = /(?:<!--[\S\s]*?-->|<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>)/g;

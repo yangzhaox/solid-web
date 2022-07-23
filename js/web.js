@@ -1,5 +1,5 @@
-import { createMemo, createRoot, createRenderEffect, sharedConfig, enableHydration, createSignal, onCleanup, splitProps, untrack } from 'solid-js';
-export { ErrorBoundary, For, Index, Match, Show, Suspense, SuspenseList, Switch, createComponent, createRenderEffect as effect, getOwner, mergeProps } from 'solid-js';
+import { createMemo, createRoot, createRenderEffect, sharedConfig, enableHydration, createSignal, onCleanup, splitProps, untrack } from './solid.js';
+export { ErrorBoundary, For, Index, Match, Show, Suspense, SuspenseList, Switch, createComponent, createRenderEffect as effect, getOwner, mergeProps } from './solid.js';
 
 const booleans = ["allowfullscreen", "async", "autofocus", "autoplay", "checked", "controls", "default", "disabled", "formnovalidate", "hidden", "indeterminate", "ismap", "loop", "multiple", "muted", "nomodule", "novalidate", "open", "playsinline", "readonly", "required", "reversed", "seamless", "selected"];
 const Properties = /*#__PURE__*/new Set(["className", "value", "readOnly", "formNoValidate", "isMap", "noModule", "playsInline", ...booleans]);
