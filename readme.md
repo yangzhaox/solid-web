@@ -12,5 +12,5 @@
 
 ## Supporting info
 
-- thisis about Solid.js v1.4.7
+- this is about Solid.js v1.4.7
 - initial code is downloaded from https://unpkg.com/solid-js
