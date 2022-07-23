@@ -1,22 +1,20 @@
 <html>
   <body>
     <script type="module">
-      import {
-        createSignal,
-        onCleanup,
-        render,
-        html
-      } from "./js/solid-web.js";
+      import { createSignal, onCleanup, render, html } from "./js/solid-web.js"
+
+      const Counter = () => {
+        const [count, setCount] = createSignal(0),
+          timer = setInterval(() => setCount(count() + 1), 1000)
+        onCleanup(() => clearInterval(timer))
+        return html`<div>${count}</div>`
+      }
 
       const App = () => {
-        const [count, setCount] = createSignal(0),
-          timer = setInterval(() => setCount(count() + 1), 1000);
-        onCleanup(() => clearInterval(timer));
-        return html`<div>${count}</div>`;
-        // or
-        return h("div", {}, count);
-      };
-      render(App, document.body);
+        return html`<${Counter} />`
+      }
+
+      render(App, document.body)
     </script>
   </body>
 </html>
