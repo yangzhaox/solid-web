@@ -1,7 +1,0 @@
-{
-  "name": "solid-nobuild",
-  "version": "1.0.0",
-  "description": "Buildless Solid.js without CDN",
-  "author": "Yang Zhao",
-  "license": "MIT"
-}
