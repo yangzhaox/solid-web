@@ -17,7 +17,7 @@
 - npx serve
 - visit http://localhost:3000
 
-## Additiional info
+## More info
 
 - this is based on solid.js v1.4.7
 - initial code is downloaded from https://unpkg.com/solid-js
